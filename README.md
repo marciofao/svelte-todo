@@ -1,4 +1,6 @@
-# This is To-do app build using Svelte and Google Firestore
+# To-do list app
+
+Built using Svelte in frontend and Google Firestore for backend.
 
 # Steps to run:
 
