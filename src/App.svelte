@@ -1,5 +1,5 @@
 <script>
-  export let name;
+  import Todos from "./Todos.svelte";
 </script>
 
 <main>
