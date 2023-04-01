@@ -94,13 +94,15 @@
   }
   input {
     border: 1px solid blue;
-    color: lightblue;
+    color: darkblue;
   }
   ::placeholder {
     color: gray;
   }
   .items {
     margin-right: 70px;
+    width: 150px;
+    display: inline-flex;
   }
   li button {
     background-color: #fff;
