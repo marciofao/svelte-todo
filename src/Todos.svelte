@@ -50,7 +50,9 @@
     }
   };
   const markAsDone = async (item) => {
-    await updateDoc(doc(db, "todos", id));
+    await updateDoc(doc(db, "todos", item.id), {
+      isDone: !item.isDone,
+    });
   };
 
   const delTodo = async (id) => {
